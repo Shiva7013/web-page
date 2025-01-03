@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Layout</title>
+    <style>
+        /* Global styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main content */
+        main {
+            padding: 20px;
+        }
+
+        .intro {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .feature-box {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .feature-box h4 {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Website Title</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="intro">
+            <h2>Welcome to Our Website</h2>
+            <p>This is a simple introduction section. You can customize this text to match your content.</p>
+        </section>
+
+        <section class="features">
+            <div class="feature-box">
+                <h4>Feature 1</h4>
+                <p>Details about the first feature.</p>
+            </div>
+            <div class="feature-box">
+                <h4>Feature 2</h4>
+                <p>Details about the second feature.</p>
+            </div>
+            <div class="feature-box">
+                <h4>Feature 3</h4>
+                <p>Details about the third feature.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Your Website Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
